@@ -7,6 +7,7 @@ public class RubyController : MonoBehaviour
     Animator animator;
     Vector2 lookDirection = new Vector2(1, 0);
 
+    public ParticleSystem hitEffect;
     public float speed = 3.0f;
     public int maxHealth = 5;
     int currentHealth;
@@ -72,6 +73,7 @@ public class RubyController : MonoBehaviour
         if(amount < 0)
         {
             animator.SetTrigger("Hit");
+            ParticleSystem particleObject = Instantiate(hitEffect); 
             if(isInvincible)
                 return;
 

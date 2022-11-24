@@ -122,3 +122,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0396cd2ac4c8d44690c6b4317ff3ef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grabEffect: {fileID: 2019305732074473281, guid: 49b93f147d7d24f4b902a811dd849cb3, type: 3}
